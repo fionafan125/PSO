@@ -18,6 +18,8 @@ store_png_file = "png_file"
 penalty_base = 1e5 #改這個
 store_result_file = 'result_file'
 
+#print" hello world"
+
 if not os.path.exists(store_result_file):
     os.makedirs(store_result_file)
 
