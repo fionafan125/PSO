@@ -10,6 +10,10 @@ import argparse
 import os
 from src import *
 
+import os
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+os.chdir(SCRIPT_DIR)  # 強制變更當前目錄
 #=====storages====
 
 
